@@ -31,12 +31,12 @@ public class QAactivity extends AppCompatActivity implements View.OnClickListene
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         init();
-        CallSystem();
+//        CallSystem();
     }
 
-    Boolean CallSystem(String msg) {
-       //默认的信息,错误处理等...与后端链接...
-    }
+//    Boolean CallSystem(String msg) {
+//       //默认的信息,错误处理等...与后端链接...
+//    }
 
     private void init() {
         listView = (ListView) findViewById(R.id.msg_list_view);
