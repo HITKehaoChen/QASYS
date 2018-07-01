@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.milky.qasys.MainActivity">
+    tools:context="com.example.milky.qasys.MainActivity"
+    android:background="#fff">
 
     <LinearLayout
-        android:layout_width="438dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
@@ -21,21 +22,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="QA SYSTEM"
+                    android:fontFamily="monospace"
+
+                    android:text="ASK ME"
                     android:textAlignment="center"
-                    android:layout_marginLeft="-40dp"
-                    android:textSize="20dp"
-                    android:textColor="#000"/>
+                    android:textColor="#000"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
 
                 <ImageButton
                     android:id="@+id/startBtn"
                     android:layout_width="300dp"
                     android:layout_height="300dp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="-26dp"
+
                     android:layout_marginTop="12dp"
                     android:background="@drawable/logo2"
                     android:onClick="onClick" />
@@ -49,10 +54,10 @@
 
                 <ImageButton
                     android:id="@+id/HistoryBtn"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
+                    android:layout_width="94dp"
+                    android:layout_height="106dp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="-26dp"
+
                     android:layout_marginTop="20dp"
                     android:background="@drawable/history"
                     android:onClick="onClick" />
