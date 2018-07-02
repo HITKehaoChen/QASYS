@@ -43,11 +43,11 @@ public class MessageHelper extends ArrayAdapter<Message> {
         if (msg.getChatObj() == Message.Answer){
             viewHolder.leftLayout.setVisibility(View.VISIBLE);
             viewHolder.rightLayout.setVisibility(View.GONE);
-            viewHolder.left_msg.setText("SAMPLE ANSWER");//来自后端
+            viewHolder.left_msg.setText("软件开发云中各个区域的数据不共通，各自独立，如：东北区创建的项目、代码仓库、任务等，在华北区看不到，反之一样。此外，各个区域中各服务的使用量、计费情况也是分开计算的。说明：软件开发云目前只支持东北区和华北区。");//来自后端
         }else{
             viewHolder.leftLayout.setVisibility(View.GONE);
             viewHolder.rightLayout.setVisibility(View.VISIBLE);
-            viewHolder.right_msg.setText("a question");//同上 未完工...
+            viewHolder.right_msg.setText("软件开发云中各个区域的数据是否共通？");//同上 未完工...
         }
         return convertView;
     }
